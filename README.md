@@ -64,7 +64,7 @@ This project is a full C++ implementation of the TunnelMan game as described in 
 -Increasing difficulty per level
 
 ## Project Summary:
--This project implements a complete tick‑driven 2D game engine modeled on the TunnelMan specification. The system is built around a central StudentWorld controller that manages world initialization, per‑tick updates, actor lifecycles, collision handling, and level progression. All game entities derive from a shared Actor base class, with specialized subclasses implementing movement rules, interaction logic, and state machines.
+### This project implements a complete tick‑driven 2D game engine modeled on the TunnelMan specification. The system is built around a central StudentWorld controller that manages world initialization, per‑tick updates, actor lifecycles, collision handling, and level progression. All game entities derive from a shared Actor base class, with specialized subclasses implementing movement rules, interaction logic, and state machines.
 
 -Key systems include:
 
@@ -74,8 +74,8 @@ This project is a full C++ implementation of the TunnelMan game as described in 
 
 -TunnelMan Logic: User‑driven movement, digging, squirt creation, sonar usage, and inventory handling.
 
-Protester AI: Random movement, line‑of‑sight detection, shouting, bribing rules, stun timers, and Hardcore BFS pathfinding.
+-Protester AI: Random movement, line‑of‑sight detection, shouting, bribing rules, stun timers, and Hardcore BFS pathfinding.
 
-Boulder Physics: Stable → waiting → falling state transitions with collision and bonk interactions.
+-Boulder Physics: Stable → waiting → falling state transitions with collision and bonk interactions.
 
-Goodie System: Pickup rules, temporary visibility, expiration timers, and scoring effects.
+-Goodie System: Pickup rules, temporary visibility, expiration timers, and scoring effects.
